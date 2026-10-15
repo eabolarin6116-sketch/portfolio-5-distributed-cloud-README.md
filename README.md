@@ -32,3 +32,26 @@ Screenshots and documentation of the cloud database deployments and the distribu
 ## 7. Conclusion
 
 This portfolio will evaluate how cloud-hosted databases and distributed database techniques can support a Bank/Fintech Platform, while recognising the trade-offs between availability, consistency, scalability, and operational complexity.
+
+## Documentation
+
+- [Cloud Database Deployment](cloud-deployment.md) — describes the hosted PostgreSQL and MongoDB environments, their use in the project, and deployment limitations.
+- [Distributed Database Concepts](distributed-concepts.md) — discusses replication, sharding, availability, consistency, and how they relate to the Bank/Fintech Platform.
+
+## Evidence Checklist
+
+- [ ] Neon PostgreSQL project/dashboard screenshot.
+- [ ] MongoDB Atlas cluster/dashboard screenshot.
+- [ ] Evidence of database tables and transaction operations in PostgreSQL.
+- [ ] Evidence of the MongoDB `bank_fintech` database, `transactions` collection, inserted documents, and query results.
+- [ ] Screenshots linked in this README or clearly referenced from the relevant portfolio folders.
+
+## Implementation Status
+
+This project demonstrates the use of hosted PostgreSQL and MongoDB databases. It also includes practical PostgreSQL transaction and isolation exercises and MongoDB document queries.
+
+Replication, sharding, failover, and disaster recovery have not been claimed as implemented unless supported by separate configuration evidence and tests. The distributed concepts document distinguishes the discussion of these mechanisms from the work demonstrated in this project.
+
+## Conclusion
+
+The Bank/Fintech Platform portfolio demonstrates relational and document-oriented database approaches using hosted services. It considers how distributed database concepts could support reliability, scalability, and data consistency in a financial application.
